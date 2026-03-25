@@ -1,8 +1,8 @@
                     // 2nd Assignment
-import { test, expect } from '@playwright/test';
-import { count } from 'console';
+import { test, expect, Page } from '@playwright/test';
+// import { count } from 'console';
 
-function getLocators(page){
+function getLocators(page: Page){
     return{
         name: page.locator('input#name'), // using CSS selector HTML with id 
         email: page.locator('//input[@id="inputEmail4"]'), // using xpath

@@ -1,0 +1,518 @@
+# Page snapshot
+
+```yaml
+- img "Join TestMu Conference"
+- text: Test your AI Agents with the all-new Agent to Agent Testing Platform.
+- link "Learn More Arrow Arrow":
+  - /url: https://www.lambdatest.com/agent-to-agent-testing
+  - text: Learn More
+  - img "Arrow"
+  - img "Arrow"
+- banner:
+  - navigation:
+    - link "Visit LambdaTest homepage":
+      - /url: https://www.lambdatest.com/
+      - img "Logo"
+    - link "Platform":
+      - /url: https://www.lambdatest.com/feature
+    - button "Solutions"
+    - button "Resources"
+    - button "Developers"
+    - link "Pricing":
+      - /url: https://www.lambdatest.com/pricing
+    - link "Login":
+      - /url: https://accounts.lambdatest.com/login
+    - button "Book a Demo"
+    - link "Get Started Free":
+      - /url: https://accounts.lambdatest.com/register
+- heading "Table Search filter" [level=1]
+- textbox "Filter by Task / Assignee / Status": completed
+- table:
+  - rowgroup:
+    - row "# Task Assignee Status":
+      - cell "#"
+      - cell "Task"
+      - cell "Assignee"
+      - cell "Status"
+  - rowgroup:
+    - row "1 Development Aku Sofi completed":
+      - cell "1"
+      - cell "Development"
+      - cell "Aku Sofi"
+      - cell "completed"
+    - row "2 Testing Halima Werknesh completed":
+      - cell "2"
+      - cell "Testing"
+      - cell "Halima Werknesh"
+      - cell "completed"
+    - row "3 Content Ricky John in progress":
+      - cell "3"
+      - cell "Content"
+      - cell "Ricky John"
+      - cell "in progress"
+    - row "4 JavaScript Dan Akaa failed":
+      - cell "4"
+      - cell "JavaScript"
+      - cell "Dan Akaa"
+      - cell "failed"
+    - row "5 PHP Jackey John deployed":
+      - cell "5"
+      - cell "PHP"
+      - cell "Jackey John"
+      - cell "deployed"
+    - row "6 Selenium Matthews Bryson completed":
+      - cell "6"
+      - cell "Selenium"
+      - cell "Matthews Bryson"
+      - cell "completed"
+    - row "7 Node Timothe Wintle failed qa":
+      - cell "7"
+      - cell "Node"
+      - cell "Timothe Wintle"
+      - cell "failed qa"
+- heading "Click the button to filter inputs" [level=2]
+- button "Filter"
+- table:
+  - rowgroup:
+    - row:
+      - cell:
+        - textbox "#" [disabled]
+      - cell:
+        - textbox "Username" [disabled]
+      - cell:
+        - textbox "First Name" [disabled]
+      - cell:
+        - textbox "Last Name" [disabled]
+  - rowgroup:
+    - row "1 yesiamben Ben Pitchard":
+      - cell "1"
+      - cell "yesiamben"
+      - cell "Ben"
+      - cell "Pitchard"
+    - row "2 hwerkens Halima Werknesh":
+      - cell "2"
+      - cell "hwerkens"
+      - cell "Halima"
+      - cell "Werknesh"
+    - row "3 rikjohny Ricky John":
+      - cell "3"
+      - cell "rikjohny"
+      - cell "Ricky"
+      - cell "John"
+    - row "4 akdn Dan Akaa":
+      - cell "4"
+      - cell "akdn"
+      - cell "Dan"
+      - cell "Akaa"
+    - row "5 jackjohn Jackey John":
+      - cell "5"
+      - cell "jackjohn"
+      - cell "Jackey"
+      - cell "John"
+    - row "6 matheson Matthews Bryson":
+      - cell "6"
+      - cell "matheson"
+      - cell "Matthews"
+      - cell "Bryson"
+    - row "7 wintlTim Timothe Wintle":
+      - cell "7"
+      - cell "wintlTim"
+      - cell "Timothe"
+      - cell "Wintle"
+- contentinfo:
+  - text: Products & Features
+  - list:
+    - listitem:
+      - link "Automation Testing Cloud":
+        - /url: /automation-cloud
+    - listitem:
+      - link "KaneAI - GenAI-Native Testing Agent Kane AI":
+        - /url: /kane-ai
+        - text: KaneAI - GenAI-Native Testing Agent
+        - img "Kane AI"
+    - listitem:
+      - link "Agent to Agent Testing Kane AI":
+        - /url: /agent-to-agent-testing
+        - text: Agent to Agent Testing
+        - img "Kane AI"
+    - listitem:
+      - link "Cross Browser Testing":
+        - /url: /cross-browser-testing
+    - listitem:
+      - link "Real Device Cloud":
+        - /url: /real-device-cloud
+    - listitem:
+      - link "Test Manager":
+        - /url: /test-manager
+    - listitem:
+      - link "Mobile App Testing":
+        - /url: /mobile-app-testing
+    - listitem:
+      - link "AI Testing":
+        - /url: /ai-testing
+    - listitem:
+      - link "HyperExecute":
+        - /url: /hyperexecute
+    - listitem:
+      - link "Performance Testing":
+        - /url: /performance-testing
+    - listitem:
+      - link "LT Browser":
+        - /url: /lt-browser
+    - listitem:
+      - link "LT Debug":
+        - /url: /lt-debug
+    - listitem:
+      - link "Local Page Testing":
+        - /url: /local-page-testing
+    - listitem:
+      - link "Automated Screenshots":
+        - /url: /automated-screenshot
+    - listitem:
+      - link "Geo-Location Testing":
+        - /url: /geolocation-testing
+    - listitem:
+      - link "Accessibility Testing":
+        - /url: /accessibility-testing
+    - listitem:
+      - link "Responsive Testing":
+        - /url: /responsive-test-online
+    - listitem:
+      - link "Localization Testing":
+        - /url: /localization-testing
+    - listitem:
+      - link "Visual Testing Tool":
+        - /url: /visual-testing-tool
+    - listitem:
+      - link "Integrations":
+        - /url: /integrations
+    - listitem:
+      - link "Test Analytics":
+        - /url: /test-analytics
+    - listitem:
+      - link "Professional Services Lambdatest Professional Services":
+        - /url: /professional-services
+        - text: Professional Services
+        - img "Lambdatest Professional Services"
+  - text: Test on
+  - list:
+    - listitem:
+      - link "iPhone 16":
+        - /url: /test-on-iphone-16
+    - listitem:
+      - link "List of Browsers":
+        - /url: /list-of-browsers
+    - listitem:
+      - link "List of Real Devices":
+        - /url: /list-of-real-devices
+    - listitem:
+      - link "Internet Explorer":
+        - /url: /test-on-internet-explorer-browsers
+    - listitem:
+      - link "Firefox":
+        - /url: /test-on-firefox-browsers
+    - listitem:
+      - link "Chrome":
+        - /url: /test-on-chrome-browsers
+    - listitem:
+      - link "Safari Browser Online":
+        - /url: /test-on-safari-browsers
+    - listitem:
+      - link "Microsoft Edge":
+        - /url: /test-on-edge-browsers
+    - listitem:
+      - link "Opera":
+        - /url: /test-on-opera-browsers
+    - listitem:
+      - link "Yandex":
+        - /url: /test-on-yandex-browsers
+    - listitem:
+      - link "Mac OS":
+        - /url: /test-on-macos-browsers
+    - listitem:
+      - link "Mobile Devices":
+        - /url: /test-on-mobile-devices
+    - listitem:
+      - link "iOS Simulator":
+        - /url: /ios-simulator-online
+    - listitem:
+      - link "Android Emulator":
+        - /url: /android-emulator-online
+    - listitem:
+      - link "Browser Emulator":
+        - /url: /browser-emulator-online
+  - text: Browser Automation
+  - list:
+    - listitem:
+      - link "Selenium Testing":
+        - /url: /selenium-automation
+    - listitem:
+      - link "Selenium Grid":
+        - /url: /selenium-grid-online
+    - listitem:
+      - link "Cypress Testing":
+        - /url: /cypress-testing
+    - listitem:
+      - link "Playwright Testing":
+        - /url: /playwright-testing
+    - listitem:
+      - link "Puppeteer Testing":
+        - /url: /puppeteer-testing
+    - listitem:
+      - link "Taiko Testing":
+        - /url: /taiko-automation
+  - text: Mobile App Automation
+  - list:
+    - listitem:
+      - link "Appium Testing":
+        - /url: /appium-mobile-testing
+    - listitem:
+      - link "Espresso Testing":
+        - /url: /espresso-automation-testing
+    - listitem:
+      - link "XCUITest Testing":
+        - /url: /xcuitest-app-testing
+  - text: Resources
+  - list:
+    - listitem:
+      - link "Watch TestMu Conf 2025 TestMu Conference 2025":
+        - /url: /testmuconf-2025
+        - text: Watch TestMu Conf 2025
+        - img "TestMu Conference 2025"
+    - listitem:
+      - link "TestMu Conf 2026 TestMu Conference 2026":
+        - /url: /testmuconf-2026
+        - text: TestMu Conf 2026
+        - img "TestMu Conference 2026"
+    - listitem:
+      - link "Join LambdaTest Bootcamp":
+        - /url: /bootcamp
+    - listitem:
+      - link "Blogs":
+        - /url: /blog/
+    - listitem:
+      - link "Community":
+        - /url: https://community.lambdatest.com
+    - listitem:
+      - link "Certifications":
+        - /url: /certifications/
+    - listitem:
+      - link "Product Updates":
+        - /url: /blog/category/lambdatest-updates/
+    - listitem:
+      - link "Newsletter":
+        - /url: /newsletter/
+    - listitem:
+      - link "Webinars":
+        - /url: /webinar/
+    - listitem:
+      - link "Videos":
+        - /url: /video/
+    - listitem:
+      - link "FAQ":
+        - /url: /support/faq/
+    - listitem:
+      - link "Web Technologies Compatibility":
+        - /url: /web-technologies
+    - listitem:
+      - link "Automation Testing Advisor":
+        - /url: /automation-testing-advisor
+    - listitem:
+      - link "Software Testing [Glossary]":
+        - /url: /learning-hub/glossary
+    - listitem:
+      - link "Software Testing Questions":
+        - /url: /software-testing-questions
+    - listitem:
+      - link "Free Online Tools":
+        - /url: /free-online-tools
+    - listitem:
+      - link "Mobile Testing Advisor":
+        - /url: /mobile-testing-advisor/
+    - listitem:
+      - link "Latest Versions":
+        - /url: /latest-version
+    - listitem:
+      - link "AI Testing Tools":
+        - /url: /blog/ai-testing-tools/
+    - listitem:
+      - link "Sitemap":
+        - /url: /sitemap.xml
+    - listitem:
+      - link "Status":
+        - /url: https://status.lambdatest.io
+  - text: Company
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: /about
+    - listitem:
+      - link "Careers LambdaTest Career":
+        - /url: /career
+        - text: Careers
+        - img "LambdaTest Career"
+    - listitem:
+      - link "Customers":
+        - /url: /customers/
+    - listitem:
+      - link "Press":
+        - /url: /press/
+    - listitem:
+      - link "Achievements LambdaTest Achievements":
+        - /url: /achievements
+        - text: Achievements
+        - img "LambdaTest Achievements"
+    - listitem:
+      - link "Reviews":
+        - /url: /reviews
+    - listitem:
+      - link "Community & Support":
+        - /url: /community
+    - listitem:
+      - link "Partners":
+        - /url: /partners/
+    - listitem:
+      - link "Open Source":
+        - /url: /open-source
+    - listitem:
+      - link "Content Editorial Policy":
+        - /url: /editorial-policy-processes
+    - listitem:
+      - link "Write for Us":
+        - /url: /lambdatest-write-for-us
+    - listitem:
+      - link "Become an Affiliate":
+        - /url: /affiliate-program-partnership
+    - listitem:
+      - link "Terms of Service":
+        - /url: /legal/terms-of-service
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /legal/privacy
+    - listitem:
+      - link "Trust":
+        - /url: /trust
+    - listitem:
+      - link "Website Terms of Use":
+        - /url: /site-terms
+    - listitem:
+      - link "Team":
+        - /url: /career
+    - listitem:
+      - link "Contact Us":
+        - /url: /contact-us
+  - text: Learning Hub
+  - list:
+    - listitem:
+      - link "Selenium Tutorial":
+        - /url: /selenium
+    - listitem:
+      - link "Cypress Tutorial":
+        - /url: /learning-hub/cypress-tutorial
+    - listitem:
+      - link "Playwright Tutorial":
+        - /url: /playwright
+    - listitem:
+      - link "Appium Tutorial":
+        - /url: /appium
+    - listitem:
+      - link "Jest Tutorial":
+        - /url: /jest
+    - listitem:
+      - link "More Learning Hubs":
+        - /url: /learning-hub/
+  - text: What's New
+  - list:
+    - listitem:
+      - link "Changelog":
+        - /url: https://changelog.lambdatest.com
+    - listitem:
+      - link "Future of QA Survey Report":
+        - /url: /future-of-quality-assurance-survey
+    - listitem:
+      - link "Test on iPhone 16":
+        - /url: /test-on-iphone-16
+    - listitem:
+      - link "Test on Samsung Galaxy S25 Series Test on Samsung Galaxy":
+        - /url: /test-on-samsung-galaxy-s25
+        - text: Test on Samsung Galaxy S25 Series
+        - img "Test on Samsung Galaxy"
+    - listitem:
+      - link "July'25 Updates":
+        - /url: /blog/july-2025-updates/
+    - listitem:
+      - link "Coding Jag - Issue 260":
+        - /url: /newsletter/editions/issue260
+    - listitem:
+      - link "Best Egg [Case Study]":
+        - /url: /customers/best-egg
+    - listitem:
+      - link "How to Use Selenium Stealth Mode [Blog]":
+        - /url: /blog/selenium-stealth/
+    - listitem:
+      - link "Playwright Headless Testing [Hub]":
+        - /url: /learning-hub/playwright-headless
+    - listitem:
+      - link "Accessibility Testing 101 [Certification]":
+        - /url: /certifications/accessibility-testing-101
+  - img "LambdaTest Logo"
+  - paragraph: Deliver unparalleled digital experience with our Next-Gen, AI-Native testing cloud platform. Ensure exceptional user experience across all devices and browsers.
+  - link "... Start free with Google":
+    - /url: https://accounts.lambdatest.com/login/google
+    - img "..."
+    - text: Start free with Google
+  - link "Start free with Email":
+    - /url: https://accounts.lambdatest.com/register
+  - text: "LambdaTest is #1 choice for SMBs and Enterprises across the globe."
+  - img "G2-2023"
+  - img "Top Rated"
+  - img "leader"
+  - img "leader"
+  - img "leader"
+  - img "Getapp"
+  - text: LambdaTest has formal standards certification and comply in line with acts and regulations across the globe.
+  - img "HIPPA"
+  - img "GDPR"
+  - img "AICPA"
+  - img "CSA"
+  - img "CCPA"
+  - img "ADA"
+  - img "BSI"
+  - img "BSI"
+  - img "BSI"
+  - img "PCI"
+  - img "FSQS"
+  - text: © 2025 LambdaTest. All rights reserved Cross Browser Testing Cloud Built With
+  - img "Love"
+  - text: For Testers
+  - list:
+    - listitem:
+      - link "Like LambdaTest on Facebook":
+        - /url: https://www.facebook.com/lambdatest/
+        - img "Like Lambdatest on Facebook"
+    - listitem:
+      - link "Follow LambdaTest on Twitter":
+        - /url: https://twitter.com/Lambdatesting
+        - img "LambdaTest Twitter"
+    - listitem:
+      - link "Follow LambdaTest on LinkedIn":
+        - /url: https://www.linkedin.com/company/lambdatest/
+        - img "Follow LambdaTest on Linkedin"
+    - listitem:
+      - link "Like LambdaTest on Youtube":
+        - /url: https://www.youtube.com/channel/UCCymWVaTozpEng_ep0mdUyw?sub_confirmation=1
+        - img "Subscribe LambdaTest on Youtube"
+    - listitem:
+      - link "Follow LambdaTest on Github":
+        - /url: https://github.com/LambdaTest/
+        - img "GitHub"
+    - listitem:
+      - link "Follow LambdaTest on Pinterest":
+        - /url: https://www.pinterest.com/lambdatest/
+        - img "Pinterest"
+    - listitem:
+      - link "Follow LambdaTest on Glassdoor":
+        - /url: https://www.glassdoor.co.in/Overview/Working-at-LambdaTest-EI_IE1890911.11,21.htm
+        - img "Glassdoor"
+- alert
+```

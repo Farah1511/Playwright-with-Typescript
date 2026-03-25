@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { mainPageActions } from '../../Pages/mainHomePage/mainHomePageActions';
-import { AjaxFormActions } from '../../Pages/ajaxSubmitForm/ajaxFormActions';
+import { mainPageActions } from '../../Pages/mainHomePage/mainHomePageActions.ts';
+import { AjaxFormActions } from '../../Pages/ajaxSubmitForm/ajaxFormActions.ts';
 
 test('Automate Ajax Form via home page link', async ({ page }) => {
   //create instances of the page actions. This allows us to use the methods defined in the page actions classes

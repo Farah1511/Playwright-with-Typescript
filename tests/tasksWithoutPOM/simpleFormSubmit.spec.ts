@@ -30,7 +30,7 @@ test("404: Form Submit Demo", async({page})=>{
 
 });
 
-test("1st Assignment: Simple Form Demo", async({page})=>{
+test("Simple Form Demo", async({page})=>{
     //open Simple Form Demo page
     await page.goto("https://www.lambdatest.com/selenium-playground/simple-form-demo");
 

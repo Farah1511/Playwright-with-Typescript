@@ -1,0 +1,557 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - img "Join TestMu Conference" [ref=e7]
+      - text: Test your AI Agents with the all-new Agent to Agent Testing Platform.
+      - link "Learn More Arrow Arrow" [ref=e8] [cursor=pointer]:
+        - /url: https://www.lambdatest.com/agent-to-agent-testing
+        - text: Learn More
+        - generic [ref=e9]:
+          - img "Arrow" [ref=e11]
+          - img "Arrow" [ref=e13]
+    - banner [ref=e14]:
+      - navigation [ref=e15]:
+        - generic [ref=e17]:
+          - link "Visit LambdaTest homepage" [ref=e21] [cursor=pointer]:
+            - /url: https://www.lambdatest.com/
+            - img "Logo" [ref=e22]
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "Platform" [ref=e29] [cursor=pointer]:
+                - /url: https://www.lambdatest.com/feature
+                - text: Platform
+              - button "Solutions" [ref=e32] [cursor=pointer]: Solutions
+              - button "Resources" [ref=e35] [cursor=pointer]: Resources
+              - link "AI Agents" [ref=e37] [cursor=pointer]:
+                - /url: https://www.lambdatest.com/ai-agents
+              - link "Pricing" [ref=e38] [cursor=pointer]:
+                - /url: https://www.lambdatest.com/pricing
+            - generic [ref=e39]:
+              - link "Login" [ref=e40] [cursor=pointer]:
+                - /url: https://accounts.lambdatest.com/login
+              - button "Book a Demo" [ref=e42] [cursor=pointer]
+              - link "Get Started Free" [ref=e43] [cursor=pointer]:
+                - /url: https://accounts.lambdatest.com/register
+    - generic [ref=e44]:
+      - heading "Jquery Dropdown Search Demo" [level=1] [ref=e48]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: Drop Down with Search
+          - generic [ref=e55]:
+            - text: "Select Country :"
+            - combobox [ref=e56]
+            - combobox [ref=e59] [cursor=pointer]
+        - generic [ref=e60]:
+          - generic [ref=e61]: Select Multiple Values with search
+          - generic [ref=e62]:
+            - text: "Select State :"
+            - listbox [ref=e63]:
+              - option [ref=e64]: Alabama
+              - option [ref=e65]: Alaska
+              - option [ref=e66]: Arizona
+              - option [ref=e67]: Arkansas
+              - option [ref=e68]: California
+              - option [ref=e69]: Colorado
+              - option [ref=e70]: Connecticut
+              - option [ref=e71]: Delaware
+              - option [ref=e72]: District Of Columbia
+              - option [ref=e73]: Florida
+              - option [ref=e74]: Georgia
+              - option [ref=e75]: Hawaii
+              - option [ref=e76]: Idaho
+              - option [ref=e77]: Illinois
+              - option [ref=e78]: Indiana
+              - option [ref=e79]: Iowa
+              - option [ref=e80]: Kansas
+              - option [ref=e81]: Kentucky
+              - option [ref=e82]: Louisiana
+              - option [ref=e83]: Maine
+              - option [ref=e84]: Maryland
+              - option [ref=e85]: Massachusetts
+              - option [ref=e86]: Michigan
+              - option [ref=e87]: Minnesota
+              - option [ref=e88]: Mississippi
+              - option [ref=e89]: Missouri
+              - option [ref=e90]: Montana
+              - option [ref=e91]: Nebraska
+              - option [ref=e92]: Nevada
+              - option [ref=e93]: New Hampshire
+              - option [ref=e94]: New Jersey
+              - option [ref=e95]: New Mexico
+              - option [ref=e96]: New York
+              - option [ref=e97]: North Carolina
+              - option [ref=e98]: North Dakota
+              - option [ref=e99]: Ohio
+              - option [ref=e100]: Oklahoma
+              - option [ref=e101]: Oregon
+              - option [ref=e102]: Pennsylvania
+              - option [ref=e103]: Rhode Island
+              - option [ref=e104]: South Carolina
+              - option [ref=e105]: South Dakota
+              - option [ref=e106]: Tennessee
+              - option [ref=e107]: Texas
+              - option [ref=e108]: Utah
+              - option [ref=e109]: Vermont
+              - option [ref=e110]: Virginia
+              - option [ref=e111]: Washington
+              - option [ref=e112]: West Virginia
+              - option [ref=e113]: Wisconsin
+              - option [ref=e114]: Wyoming
+            - combobox [ref=e117]:
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - textbox "Select state(s)" [ref=e120]
+        - generic [ref=e121]:
+          - generic [ref=e122]: Drop Down with Disabled values
+          - generic [ref=e123]:
+            - text: "Select Country :"
+            - combobox [ref=e124]
+            - combobox "Puerto Rico" [ref=e127] [cursor=pointer]:
+              - generic "Puerto Rico" [ref=e128]
+        - generic [ref=e129]:
+          - generic [ref=e130]: Drop-down with Category related options
+          - generic [ref=e131]:
+            - text: Select a file
+            - combobox "Select a file" [ref=e132]:
+              - option "PHP" [selected]
+              - option "Python"
+              - option "Ruby"
+              - option "C"
+              - option "Java"
+              - option ".Net"
+              - option "Unknown Script"
+              - option "Other file"
+    - contentinfo [ref=e133]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: Products & Features
+              - list [ref=e141]:
+                - listitem [ref=e142]:
+                  - link "Automation Testing Cloud" [ref=e143] [cursor=pointer]:
+                    - /url: /automation-cloud
+                - listitem [ref=e144]:
+                  - link "KaneAI - GenAI-Native Testing Agent Kane AI" [ref=e145] [cursor=pointer]:
+                    - /url: /kane-ai
+                    - text: KaneAI - GenAI-Native Testing Agent
+                    - img "Kane AI" [ref=e146]
+                - listitem [ref=e147]:
+                  - link "Agent to Agent Testing Kane AI" [ref=e148] [cursor=pointer]:
+                    - /url: /agent-to-agent-testing
+                    - text: Agent to Agent Testing
+                    - img "Kane AI" [ref=e149]
+                - listitem [ref=e150]:
+                  - link "MCP Server LambdaTest MCP Server" [ref=e151] [cursor=pointer]:
+                    - /url: /mcp
+                    - text: MCP Server
+                    - img "LambdaTest MCP Server" [ref=e152]
+                - listitem [ref=e153]:
+                  - link "Cross Browser Testing" [ref=e154] [cursor=pointer]:
+                    - /url: /cross-browser-testing
+                - listitem [ref=e155]:
+                  - link "Real Device Cloud" [ref=e156] [cursor=pointer]:
+                    - /url: /real-device-cloud
+                - listitem [ref=e157]:
+                  - link "Test Manager" [ref=e158] [cursor=pointer]:
+                    - /url: /test-manager
+                - listitem [ref=e159]:
+                  - link "Mobile App Testing" [ref=e160] [cursor=pointer]:
+                    - /url: /mobile-app-testing
+                - listitem [ref=e161]:
+                  - link "AI Testing" [ref=e162] [cursor=pointer]:
+                    - /url: /ai-testing
+                - listitem [ref=e163]:
+                  - link "HyperExecute" [ref=e164] [cursor=pointer]:
+                    - /url: /hyperexecute
+                - listitem [ref=e165]:
+                  - link "Performance Testing" [ref=e166] [cursor=pointer]:
+                    - /url: /performance-testing
+                - listitem [ref=e167]:
+                  - link "LT Browser" [ref=e168] [cursor=pointer]:
+                    - /url: /lt-browser
+                - listitem [ref=e169]:
+                  - link "LT Debug" [ref=e170] [cursor=pointer]:
+                    - /url: /lt-debug
+                - listitem [ref=e171]:
+                  - link "Local Page Testing" [ref=e172] [cursor=pointer]:
+                    - /url: /local-page-testing
+                - listitem [ref=e173]:
+                  - link "Automated Screenshots" [ref=e174] [cursor=pointer]:
+                    - /url: /automated-screenshot
+                - listitem [ref=e175]:
+                  - link "Geo-Location Testing" [ref=e176] [cursor=pointer]:
+                    - /url: /geolocation-testing
+                - listitem [ref=e177]:
+                  - link "Accessibility Testing" [ref=e178] [cursor=pointer]:
+                    - /url: /accessibility-testing
+                - listitem [ref=e179]:
+                  - link "Responsive Testing" [ref=e180] [cursor=pointer]:
+                    - /url: /responsive-test-online
+                - listitem [ref=e181]:
+                  - link "Localization Testing" [ref=e182] [cursor=pointer]:
+                    - /url: /localization-testing
+                - listitem [ref=e183]:
+                  - link "Visual Testing Tool" [ref=e184] [cursor=pointer]:
+                    - /url: /visual-testing-tool
+                - listitem [ref=e185]:
+                  - link "Integrations" [ref=e186] [cursor=pointer]:
+                    - /url: /integrations
+                - listitem [ref=e187]:
+                  - link "Test Analytics" [ref=e188] [cursor=pointer]:
+                    - /url: /test-analytics
+                - listitem [ref=e189]:
+                  - link "Professional Services Lambdatest Professional Services" [ref=e190] [cursor=pointer]:
+                    - /url: /professional-services
+                    - text: Professional Services
+                    - img "Lambdatest Professional Services" [ref=e191]
+            - generic [ref=e192]:
+              - generic [ref=e193]: Test on
+              - list [ref=e194]:
+                - listitem [ref=e195]:
+                  - link "iPhone 17 iPhone 17" [ref=e196] [cursor=pointer]:
+                    - /url: /test-on-iphone-17
+                    - text: iPhone 17
+                    - img "iPhone 17" [ref=e197]
+                - listitem [ref=e198]:
+                  - link "iPhone 16" [ref=e199] [cursor=pointer]:
+                    - /url: /test-on-iphone-16
+                - listitem [ref=e200]:
+                  - link "List of Browsers" [ref=e201] [cursor=pointer]:
+                    - /url: /list-of-browsers
+                - listitem [ref=e202]:
+                  - link "List of Real Devices" [ref=e203] [cursor=pointer]:
+                    - /url: /list-of-real-devices
+                - listitem [ref=e204]:
+                  - link "Internet Explorer" [ref=e205] [cursor=pointer]:
+                    - /url: /test-on-internet-explorer-browsers
+                - listitem [ref=e206]:
+                  - link "Firefox" [ref=e207] [cursor=pointer]:
+                    - /url: /test-on-firefox-browsers
+                - listitem [ref=e208]:
+                  - link "Chrome" [ref=e209] [cursor=pointer]:
+                    - /url: /test-on-chrome-browsers
+                - listitem [ref=e210]:
+                  - link "Safari Browser Online" [ref=e211] [cursor=pointer]:
+                    - /url: /test-on-safari-browsers
+                - listitem [ref=e212]:
+                  - link "Microsoft Edge" [ref=e213] [cursor=pointer]:
+                    - /url: /test-on-edge-browsers
+                - listitem [ref=e214]:
+                  - link "Opera" [ref=e215] [cursor=pointer]:
+                    - /url: /test-on-opera-browsers
+                - listitem [ref=e216]:
+                  - link "Yandex" [ref=e217] [cursor=pointer]:
+                    - /url: /test-on-yandex-browsers
+                - listitem [ref=e218]:
+                  - link "Mac OS" [ref=e219] [cursor=pointer]:
+                    - /url: /test-on-macos-browsers
+                - listitem [ref=e220]:
+                  - link "Mobile Devices" [ref=e221] [cursor=pointer]:
+                    - /url: /test-on-mobile-devices
+                - listitem [ref=e222]:
+                  - link "iOS Simulator" [ref=e223] [cursor=pointer]:
+                    - /url: /ios-simulator-online
+                - listitem [ref=e224]:
+                  - link "Android Emulator" [ref=e225] [cursor=pointer]:
+                    - /url: /android-emulator-online
+                - listitem [ref=e226]:
+                  - link "Browser Emulator" [ref=e227] [cursor=pointer]:
+                    - /url: /browser-emulator-online
+            - generic [ref=e228]:
+              - generic [ref=e229]: Browser Automation
+              - list [ref=e230]:
+                - listitem [ref=e231]:
+                  - link "Selenium Testing" [ref=e232] [cursor=pointer]:
+                    - /url: /selenium-automation
+                - listitem [ref=e233]:
+                  - link "Selenium Grid" [ref=e234] [cursor=pointer]:
+                    - /url: /selenium-grid-online
+                - listitem [ref=e235]:
+                  - link "Cypress Testing" [ref=e236] [cursor=pointer]:
+                    - /url: /cypress-testing
+                - listitem [ref=e237]:
+                  - link "Playwright Testing" [ref=e238] [cursor=pointer]:
+                    - /url: /playwright-testing
+                - listitem [ref=e239]:
+                  - link "Puppeteer Testing" [ref=e240] [cursor=pointer]:
+                    - /url: /puppeteer-testing
+                - listitem [ref=e241]:
+                  - link "Taiko Testing" [ref=e242] [cursor=pointer]:
+                    - /url: /taiko-automation
+              - generic [ref=e243]: Mobile App Automation
+              - list [ref=e244]:
+                - listitem [ref=e245]:
+                  - link "Appium Testing" [ref=e246] [cursor=pointer]:
+                    - /url: /appium-mobile-testing
+                - listitem [ref=e247]:
+                  - link "Espresso Testing" [ref=e248] [cursor=pointer]:
+                    - /url: /espresso-automation-testing
+                - listitem [ref=e249]:
+                  - link "XCUITest Testing" [ref=e250] [cursor=pointer]:
+                    - /url: /xcuitest-app-testing
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - generic [ref=e254]: Resources
+              - list [ref=e255]:
+                - listitem [ref=e256]:
+                  - link "Watch TestMu Conf 2025 TestMu Conference 2025" [ref=e257] [cursor=pointer]:
+                    - /url: /testmuconf-2025
+                    - text: Watch TestMu Conf 2025
+                    - img "TestMu Conference 2025" [ref=e258]
+                - listitem [ref=e259]:
+                  - link "TestMu Conf 2026 TestMu Conference 2026" [ref=e260] [cursor=pointer]:
+                    - /url: /testmuconf-2026
+                    - text: TestMu Conf 2026
+                    - img "TestMu Conference 2026" [ref=e261]
+                - listitem [ref=e262]:
+                  - link "Join LambdaTest Bootcamp" [ref=e263] [cursor=pointer]:
+                    - /url: /bootcamp
+                - listitem [ref=e264]:
+                  - link "Blogs" [ref=e265] [cursor=pointer]:
+                    - /url: /blog/
+                - listitem [ref=e266]:
+                  - link "Community" [ref=e267] [cursor=pointer]:
+                    - /url: https://community.lambdatest.com
+                - listitem [ref=e268]:
+                  - link "Certifications" [ref=e269] [cursor=pointer]:
+                    - /url: /certifications/
+                - listitem [ref=e270]:
+                  - link "Product Updates" [ref=e271] [cursor=pointer]:
+                    - /url: /blog/category/lambdatest-updates/
+                - listitem [ref=e272]:
+                  - link "Newsletter" [ref=e273] [cursor=pointer]:
+                    - /url: /newsletter/
+                - listitem [ref=e274]:
+                  - link "Webinars" [ref=e275] [cursor=pointer]:
+                    - /url: /webinar/
+                - listitem [ref=e276]:
+                  - link "Videos" [ref=e277] [cursor=pointer]:
+                    - /url: /video/
+                - listitem [ref=e278]:
+                  - link "FAQ" [ref=e279] [cursor=pointer]:
+                    - /url: /support/faq/
+                - listitem [ref=e280]:
+                  - link "Web Technologies Compatibility" [ref=e281] [cursor=pointer]:
+                    - /url: /web-technologies
+                - listitem [ref=e282]:
+                  - link "Automation Testing Advisor" [ref=e283] [cursor=pointer]:
+                    - /url: /automation-testing-advisor
+                - listitem [ref=e284]:
+                  - link "Software Testing [Glossary]" [ref=e285] [cursor=pointer]:
+                    - /url: /learning-hub/glossary
+                - listitem [ref=e286]:
+                  - link "Software Testing Questions" [ref=e287] [cursor=pointer]:
+                    - /url: /software-testing-questions
+                - listitem [ref=e288]:
+                  - link "Free Online Tools" [ref=e289] [cursor=pointer]:
+                    - /url: /free-online-tools
+                - listitem [ref=e290]:
+                  - link "Mobile Testing Advisor" [ref=e291] [cursor=pointer]:
+                    - /url: /mobile-testing-advisor/
+                - listitem [ref=e292]:
+                  - link "Latest Versions" [ref=e293] [cursor=pointer]:
+                    - /url: /latest-version
+                - listitem [ref=e294]:
+                  - link "AI Testing Tools" [ref=e295] [cursor=pointer]:
+                    - /url: /blog/ai-testing-tools/
+                - listitem [ref=e296]:
+                  - link "Sitemap" [ref=e297] [cursor=pointer]:
+                    - /url: /sitemap.xml
+                - listitem [ref=e298]:
+                  - link "Status" [ref=e299] [cursor=pointer]:
+                    - /url: https://status.lambdatest.io
+            - generic [ref=e300]:
+              - generic [ref=e301]: Company
+              - list [ref=e302]:
+                - listitem [ref=e303]:
+                  - link "About Us" [ref=e304] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e305]:
+                  - link "Careers LambdaTest Career" [ref=e306] [cursor=pointer]:
+                    - /url: /career
+                    - text: Careers
+                    - img "LambdaTest Career" [ref=e307]
+                - listitem [ref=e308]:
+                  - link "Customers" [ref=e309] [cursor=pointer]:
+                    - /url: /customers/
+                - listitem [ref=e310]:
+                  - link "Press" [ref=e311] [cursor=pointer]:
+                    - /url: /press/
+                - listitem [ref=e312]:
+                  - link "Achievements LambdaTest Achievements" [ref=e313] [cursor=pointer]:
+                    - /url: /achievements
+                    - text: Achievements
+                    - img "LambdaTest Achievements" [ref=e314]
+                - listitem [ref=e315]:
+                  - link "Reviews" [ref=e316] [cursor=pointer]:
+                    - /url: /reviews
+                - listitem [ref=e317]:
+                  - link "Community & Support" [ref=e318] [cursor=pointer]:
+                    - /url: /community
+                - listitem [ref=e319]:
+                  - link "Partners" [ref=e320] [cursor=pointer]:
+                    - /url: /partners/
+                - listitem [ref=e321]:
+                  - link "Open Source" [ref=e322] [cursor=pointer]:
+                    - /url: /open-source
+                - listitem [ref=e323]:
+                  - link "Content Editorial Policy" [ref=e324] [cursor=pointer]:
+                    - /url: /editorial-policy-processes
+                - listitem [ref=e325]:
+                  - link "Write for Us" [ref=e326] [cursor=pointer]:
+                    - /url: /lambdatest-write-for-us
+                - listitem [ref=e327]:
+                  - link "Become an Affiliate" [ref=e328] [cursor=pointer]:
+                    - /url: /affiliate-program-partnership
+                - listitem [ref=e329]:
+                  - link "Terms of Service" [ref=e330] [cursor=pointer]:
+                    - /url: /legal/terms-of-service
+                - listitem [ref=e331]:
+                  - link "Privacy Policy" [ref=e332] [cursor=pointer]:
+                    - /url: /legal/privacy
+                - listitem [ref=e333]:
+                  - link "Trust" [ref=e334] [cursor=pointer]:
+                    - /url: /trust
+                - listitem [ref=e335]:
+                  - link "Website Terms of Use" [ref=e336] [cursor=pointer]:
+                    - /url: /site-terms
+                - listitem [ref=e337]:
+                  - link "Team" [ref=e338] [cursor=pointer]:
+                    - /url: /career
+                - listitem [ref=e339]:
+                  - link "Contact Us" [ref=e340] [cursor=pointer]:
+                    - /url: /contact-us
+            - generic [ref=e341]:
+              - generic [ref=e342]: Learning Hub
+              - list [ref=e343]:
+                - listitem [ref=e344]:
+                  - link "Selenium Tutorial" [ref=e345] [cursor=pointer]:
+                    - /url: /selenium
+                - listitem [ref=e346]:
+                  - link "Cypress Tutorial" [ref=e347] [cursor=pointer]:
+                    - /url: /learning-hub/cypress-tutorial
+                - listitem [ref=e348]:
+                  - link "Playwright Tutorial" [ref=e349] [cursor=pointer]:
+                    - /url: /playwright
+                - listitem [ref=e350]:
+                  - link "Appium Tutorial" [ref=e351] [cursor=pointer]:
+                    - /url: /appium
+                - listitem [ref=e352]:
+                  - link "Jest Tutorial" [ref=e353] [cursor=pointer]:
+                    - /url: /jest
+                - listitem [ref=e354]:
+                  - link "More Learning Hubs" [ref=e355] [cursor=pointer]:
+                    - /url: /learning-hub/
+              - generic [ref=e356]: What's New
+              - list [ref=e357]:
+                - listitem [ref=e358]:
+                  - link "Changelog" [ref=e359] [cursor=pointer]:
+                    - /url: https://changelog.lambdatest.com
+                - listitem [ref=e360]:
+                  - link "Future of QA Survey Report" [ref=e361] [cursor=pointer]:
+                    - /url: /future-of-quality-assurance-survey
+                - listitem [ref=e362]:
+                  - link "Test on iPhone 17 Test on Samsung Galaxy" [ref=e363] [cursor=pointer]:
+                    - /url: /test-on-iphone-17
+                    - text: Test on iPhone 17
+                    - img "Test on Samsung Galaxy" [ref=e364]
+                - listitem [ref=e365]:
+                  - link "Test on Samsung Galaxy S25 Series Test on Samsung Galaxy" [ref=e366] [cursor=pointer]:
+                    - /url: /test-on-samsung-galaxy-s25
+                    - text: Test on Samsung Galaxy S25 Series
+                    - img "Test on Samsung Galaxy" [ref=e367]
+                - listitem [ref=e368]:
+                  - link "August'25 Updates" [ref=e369] [cursor=pointer]:
+                    - /url: /blog/august-2025-updates/
+                - listitem [ref=e370]:
+                  - link "Coding Jag - Issue 264" [ref=e371] [cursor=pointer]:
+                    - /url: /newsletter/editions/issue264
+                - listitem [ref=e372]:
+                  - link "Raiffeisen Bank International [Case Study]" [ref=e373] [cursor=pointer]:
+                    - /url: /customers/raiffeisen-bank-international
+                - listitem [ref=e374]:
+                  - link "Voice AI [Blog]" [ref=e375] [cursor=pointer]:
+                    - /url: /blog/voice-ai/
+                - listitem [ref=e376]:
+                  - link "Load Testing With Python Locust [Hub]" [ref=e377] [cursor=pointer]:
+                    - /url: /learning-hub/python-locust
+                - listitem [ref=e378]:
+                  - link "Accessibility Testing 101 [Certification]" [ref=e379] [cursor=pointer]:
+                    - /url: /certifications/accessibility-testing-101
+        - generic [ref=e380]:
+          - generic [ref=e382]:
+            - img "LambdaTest Logo" [ref=e383]
+            - paragraph [ref=e384]: Deliver unparalleled digital experience with our Next-Gen, AI-Native testing cloud platform. Ensure exceptional user experience across all devices and browsers.
+            - generic [ref=e385]:
+              - link "... Start free with Google" [ref=e386] [cursor=pointer]:
+                - /url: https://accounts.lambdatest.com/login/google
+                - img "..." [ref=e388]
+                - generic [ref=e389]: Start free with Google
+              - link "Start free with Email" [ref=e390] [cursor=pointer]:
+                - /url: https://accounts.lambdatest.com/register
+          - generic [ref=e392]:
+            - generic [ref=e393]: "LambdaTest is #1 choice for SMBs and Enterprises across the globe."
+            - generic [ref=e394]:
+              - img "G2-2023" [ref=e395]
+              - img "Top Rated" [ref=e396]
+              - img "leader" [ref=e397]
+              - img "leader" [ref=e398]
+              - img "leader" [ref=e399]
+              - img "Getapp" [ref=e400]
+            - generic [ref=e401]: LambdaTest has formal standards certification and comply in line with acts and regulations across the globe.
+            - generic [ref=e402]:
+              - img "HIPPA" [ref=e404]
+              - img "GDPR" [ref=e406]
+              - img "AICPA" [ref=e408]
+              - img "CSA" [ref=e410]
+              - img "CCPA" [ref=e412]
+              - img "ADA" [ref=e414]
+            - generic [ref=e415]:
+              - img "BSI" [ref=e416]
+              - img "BSI" [ref=e417]
+              - img "BSI" [ref=e418]
+              - img "PCI" [ref=e419]
+              - img "FSQS" [ref=e420]
+      - generic [ref=e424]:
+        - generic [ref=e426]: © 2025 LambdaTest. All rights reserved
+        - generic [ref=e428]:
+          - text: Cross Browser Testing Cloud Built With
+          - img "Love" [ref=e429]
+          - text: For Testers
+        - list [ref=e431]:
+          - listitem [ref=e432]:
+            - link "Like LambdaTest on Facebook" [ref=e433] [cursor=pointer]:
+              - /url: https://www.facebook.com/lambdatest/
+              - img "Like Lambdatest on Facebook" [ref=e434]
+          - listitem [ref=e435]:
+            - link "Follow LambdaTest on Twitter" [ref=e436] [cursor=pointer]:
+              - /url: https://twitter.com/Lambdatesting
+              - img "LambdaTest Twitter" [ref=e437]
+          - listitem [ref=e438]:
+            - link "Follow LambdaTest on LinkedIn" [ref=e439] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/lambdatest/
+              - img "Follow LambdaTest on Linkedin" [ref=e440]
+          - listitem [ref=e441]:
+            - link "Like LambdaTest on Youtube" [ref=e442] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCCymWVaTozpEng_ep0mdUyw?sub_confirmation=1
+              - img "Subscribe LambdaTest on Youtube" [ref=e443]
+          - listitem [ref=e444]:
+            - link "Follow LambdaTest on Github" [ref=e445] [cursor=pointer]:
+              - /url: https://github.com/LambdaTest/
+              - img "GitHub" [ref=e446]
+          - listitem [ref=e447]:
+            - link "Follow LambdaTest on Pinterest" [ref=e448] [cursor=pointer]:
+              - /url: https://www.pinterest.com/lambdatest/
+              - img "Pinterest" [ref=e449]
+          - listitem [ref=e450]:
+            - link "Follow LambdaTest on Glassdoor" [ref=e451] [cursor=pointer]:
+              - /url: https://www.glassdoor.co.in/Overview/Working-at-LambdaTest-EI_IE1890911.11,21.htm
+              - img "Glassdoor" [ref=e452]
+  - alert [ref=e453]
+  - iframe [ref=e454]:
+    
+```

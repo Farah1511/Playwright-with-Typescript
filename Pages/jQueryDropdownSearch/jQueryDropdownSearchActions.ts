@@ -17,38 +17,18 @@ export class jQueryDropdownSearchActions extends jQueryDropdownSearchLocators {
         await expect(this.pageHeading).toHaveText('Jquery Dropdown Search Demo');
     }
 
+
                         //Actions for heading: Drop Down with Search
-async selectCountry(countryValue: string) {
-    await this.searchCountry.selectOption({ label: countryValue }, { force: true });
-    // Assertion: Verify the selected value
-    await expect(this.searchCountry).toHaveValue(countryValue.toLowerCase());
+ async waitForPageToLoad() {
+  await this.page.waitForLoadState('domcontentloaded'); // or 'networkidle'
+  await this.page.waitForTimeout(1000); // small buffer if needed
+}
+
+ async selectOptionFromDropdownWithSearch(){
+    await this.waitForPageToLoad();
+    await this.searchCountry.nth(0).click();
+    await this.countrySearchField.fill("australia");
+    await this.page.keyboard.press('Enter');
   }
 
-
-
-
-    // click the field to open the country dropdown
-    // async openCountryDropdown() {
-    //     await this.selectCountryField.click();
-    // }
-    // // search for a country in the dropdown
-    // async searchForCountry(countryName: string) {
-    //     await this.searchCountry.fill(countryName);
-    // }
-    // // select a country from the dropdown list
-    // async selectCountryFromList() {
-    //     await this.selectCountryListItem.click();
-    // }
-    // // verify the selected country is displayed in the dropdown
-    // async verifySelectedCountry(countryName: string) {
-    //     const selectedCountry = await this.selectCountryField.textContent();
-    //     expect(selectedCountry).toContain(countryName);
-    // }
-    // // perform the complete flow of selecting a country
-    // async selectCountry(countryName: string) {  
-    //     await this.openCountryDropdown();
-    //     await this.searchForCountry(countryName);
-    //     await this.selectCountryFromList();
-    //     await this.verifySelectedCountry(countryName);
-    // }
 }

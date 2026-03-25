@@ -8,5 +8,6 @@ test('Automate jQueryDropdown Search', async({page}) => {
     // Open the main jQueryDropdown page
     const jQueryDropdownPage = new jQueryDropdownSearchActions(page);
     // Call Actions for heading: Drop Down with Search
-    await jQueryDropdownPage.selectCountry('New Zealand');
+    await jQueryDropdownPage.selectOptionFromDropdownWithSearch();
+    
 });
